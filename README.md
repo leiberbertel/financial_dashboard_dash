@@ -5,7 +5,7 @@
 
 ## Instalar dependencias en tu máquina
 ```shell
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 ## Correr la aplicación
 
