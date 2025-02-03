@@ -1,22 +1,24 @@
-# Tablero financiero con Dash
+# Interactive financial dashboard
 
-### Esta aplicación tiene la capacidad de configurar la visualización de datos utilizando Plotly Dash en Python con un enfoque profundo en la carga, filtrado y visualización de datos.
-> Usa el módulo i18n, que permite la internacionalización del contenido; traducir el contenido a un idioma en especifo de acuerdo al archivo que guarde en la carpeta /locale con su traduccción. De preferencia que el archivo tenga la extension .yml
+### This application has the ability to configure data visualization using Plotly Dash in Python with a deep focus on data loading, filtering and visualization.
+> Use the i18n module, which allows the internationalization of the content; translate the content to a specific language according to the file you save in the /locale folder with your translation. Preferably the file should have the extension .yml
 
-## Instalar dependencias en tu máquina
+## Install dependencies on your machine
+We move to the `environment` folder and there we execute the following command
+
 ```shell
 pip install -r requirements.txt
 ```
-## Correr la aplicación
+## Running the application
 
-Ejecute los siguientes comandos y abra la dirección web del host local elegido por Dash.
+Execute the following commands and open the web address of the local host chosen by Dash.
 
 
 ```shell
 python ./main.py
 ```
 
-A continuación se muestra un ejemplo de los mensajes de terminal esperados:
+An example of the expected terminal messages is shown below:
 
 ```shell
 Dash is running on http://127.0.0.1:8050/
